@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Introducción</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Módulo Análisis Multivariado</h1>
+					<h3>Introducción y Conceptos Básicos</h3>
+					<p>
+						<small>Created by <a href="http://hakim.se">Diego Manzur Guevara</a> </small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Presentación del Profe</h2>
+					<p style="text-align:justify; font-size:80%;">
+						Soy Diego Manzur Guevara, ingeniero civil de la Universidad EIA, estudiante de MSc en Finanzas EAFIT. Investigador de la Universidad EIA en convenio con De Montfort University (Leicester UK) en proyectos de Inteligencia Artificial, de la Universidad Nacional de Colombia en convenio con UCF (University of Central Florida USA) en proyectos de modelación numérica y Universidad EAFIT en proyectos de valoración de opciones reales. Profesor de la Universidad EIA en cursos de extensión (Modelos Probabilísticos para Toma de Decisiones del Diplomado de Analítica de Datos) y consultor de infraestructura en diseños de centros de computación (Proyecto conjunto Universidad EIA y MinTIC).
+					</p>
+				</section>
+
+				<section>
+					<h2>Preguntas previas</h2>
+					<br>
+					<ol>
+						<li>¿Qué saben de Análisis Multivariado?</li>
+						<br>
+						<li>¿Porqué creen que es importante?</li>
+						<br>
+						<li>¿Ya han tenido experiencias donde digan... Juemama, OLS no es suficiente?</li>
+					</ol>
+				</section>
+
+				<section>
+					<h2>Consideraciones iniciales</h2>
+					<ol>
+						<li>Todo es retroalimentativos, a pesar que las técnicas/clases son independientes.</li>
+						<li>Dinámica de la clase:</li>
+						<ul>
+							<li>Poco numérica</li>
+							<li>Altamente técnica/intuitiva</li>
+							<li>Enfoque práctico</li>
+						</ul>
+						<li>División de la clase (3 espacios)</li>
+						<ul>
+							<li>"Teoria" - Descripción de la técnica</li>
+							<li>Ejercicio guiado - académico vs real</li>
+							<li>Trabajo libre</li>
+						</ul>
+					</ol>
+				</section>
+
+				<section>
+					<section>
+						<h2>Contenidos del curso</h2>
+						<br>
+						<ul>
+							<li>Introducción y conceptos básicos.</li>
+							<li>Análisis exploratorio multivariado.</li>
+							<li>Distribución normal multivariada.</li>
+							<li>Análisis de componentes principales.</li>
+							<li>Análisis de correspondencias.</li>
+							<li>Análisis de conglomerados.</li>
+							<li>Escalamiento multidimensional.</li>
+							<li>Análisis de factores.</li>
+							<li>Análisis discriminante. </li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Alternativa a la estructura anterior</h2>
+						<br>
+						<p style="text-align: justify;">
+							Caso práctico de consultoria.
+							<br>
+							<br>
+							A partir de una base de datos real, teniendo en la mira un objetivo de mineria de datos, realizar una consultoria, la cual requiere un entregable (informe), a cambio de una clase que sería reemplazada por reuniones para asesorar los equipos.
+						</p>
+					</section>
+
+
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/search/search.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
